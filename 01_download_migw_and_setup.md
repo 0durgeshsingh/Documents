@@ -56,7 +56,7 @@ Inside **MinGW Installation Manager**:
       
 Open **Command Prompt** and run:
 
----   
+``` 
       gcc --version
       g++ --version
       mingw32-make --version
