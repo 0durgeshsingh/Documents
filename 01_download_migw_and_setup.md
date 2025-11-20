@@ -34,6 +34,7 @@ Inside **MinGW Installation Manager**:
 ---
 
 ## ▶️ 4. Apply Changes (Install the Packages)
+ - copy path C:\MinGW\bin
 1. Open the **Installation** menu.
 2. Choose **Apply Changes**.
 3. Confirm by clicking **Apply**.
@@ -48,4 +49,15 @@ Inside **MinGW Installation Manager**:
 2. Open the **Advanced** tab → click **Environment Variables**.
 3. Under **System variables**, select `Path` → click **Edit**.
 4. Add the following entry:
+5. Save all windows.
+
+   
+## 🧪 6. Verify the Installation
+      Open **Command Prompt** and run:
+
+---   
+      gcc --version
+      g++ --version
+      mingw32-make --version
+```
 
