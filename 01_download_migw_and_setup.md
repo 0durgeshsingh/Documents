@@ -53,7 +53,8 @@ Inside **MinGW Installation Manager**:
 
    
 ## 🧪 6. Verify the Installation
-      Open **Command Prompt** and run:
+      
+Open **Command Prompt** and run:
 
 ---   
       gcc --version
