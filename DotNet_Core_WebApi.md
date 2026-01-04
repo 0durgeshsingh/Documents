@@ -10,7 +10,7 @@ namespace _0durgeshsingh.Models
         public string Name { get; set; }
         public string PhoneNumber { get; set; }
     }
-}
+} 
 ```
 ## Step 2. Create Application Context Class
   - Create a Folder Data and Add a Context Class 
