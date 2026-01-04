@@ -20,7 +20,7 @@ git add filename.ext
 ```
 git commit -m "Your commit message here"
 
-```
+``` 
 
 ### 4. Push to GitHub
  - Push the changes to the remote repository
