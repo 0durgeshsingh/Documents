@@ -20,3 +20,7 @@ FROM (
     WHERE DATE('2026-01-01') + INTERVAL n DAY <= '2026-12-31'
 ) dates
 WHERE DAYOFWEEK(d) = 1;
+
+
+
+
