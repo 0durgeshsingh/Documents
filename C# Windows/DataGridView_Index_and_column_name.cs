@@ -1,8 +1,7 @@
 
-#### Getting the Name Of Columns Index and Names or Header Text Of DatagridView .
+//  Getting the Name Of Columns Index and Names or Header Text Of DatagridView .
 
 
-```C#
 StringBuilder sb = new StringBuilder();
 
             foreach (DataGridViewColumn column in dgv.Columns)
@@ -15,4 +14,4 @@ StringBuilder sb = new StringBuilder();
             }
 
  string columns = sb.ToString();
-```
+
