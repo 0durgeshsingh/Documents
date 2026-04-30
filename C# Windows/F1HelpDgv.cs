@@ -35,3 +35,5 @@ private void dgv_KeyUp(object sender, KeyEventArgs e)
                 dgv[4, dgv.CurrentCell.RowIndex].Value = helpdialog.list[1].ToString();
             }
         }
+
+// dgv help
