@@ -7,6 +7,7 @@ A Complete, Clean, and Beautiful Guide
 2. Click **Download** to get the `mingw-get-setup.exe` installer.
 3. Once downloaded, run the installer.
 
+
 ---
 
 ## 📦 2. Install the MinGW Installer Manager
