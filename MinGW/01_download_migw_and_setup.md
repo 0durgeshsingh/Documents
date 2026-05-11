@@ -10,14 +10,14 @@ A Complete, Clean, and Beautiful Guide
 
 ---
 
-## 📦 2. Install the MinGW Installer Manager
+##  2. Install the MinGW Installer Manager
 1. Launch `mingw-get-setup.exe`.
 2. Accept the default installation directory (typically: `C:\MinGW`).
 3. Finish the setup to open the **MinGW Installation Manager**.
 
 ---
 
-## 📚 3. Select the Required Packages
+##  3. Select the Required Packages
 
 Inside **MinGW Installation Manager**:
 
