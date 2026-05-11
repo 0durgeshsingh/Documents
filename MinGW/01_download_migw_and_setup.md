@@ -1,7 +1,7 @@
-# 🛠️ Installing MinGW on Windows  
+#  Installing MinGW on Windows  
 A Complete, Clean, and Beautiful Guide
 
-## 📥 1. Download MinGW Installer
+##  1. Download MinGW Installer
 1. Visit the official MinGW page on SourceForge:  
    https://sourceforge.net/projects/mingw/
 2. Click **Download** to get the `mingw-get-setup.exe` installer.
