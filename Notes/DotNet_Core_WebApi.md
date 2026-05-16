@@ -143,7 +143,7 @@ namespace _0durgeshsingh.Controllers
 ## Step 5. Update Program.cs Class 
 
 ```C#
-using Microsoft.Data.SqlClient;  // Using the modern SQL Client library
+using Microsoft.Data.SqlClient;  // Using the Sql Client library
 using _0durgeshsingh.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
