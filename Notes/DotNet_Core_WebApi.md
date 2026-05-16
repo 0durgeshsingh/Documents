@@ -140,7 +140,7 @@ namespace _0durgeshsingh.Controllers
     "AllowedHosts": "*"
 }
 ```
-## Step 5. Update Program.cs Class 
+## Step 5. Update Program.cs Class
 
 ```C#
 using Microsoft.Data.SqlClient;  // Using the Sql Client library
@@ -156,7 +156,7 @@ builder.Services.AddControllers();
 // Register SqlHelper with dependency injection
 builder.Services.AddSingleton<SqlHelper>();  // Or AddScoped or AddTransient based on your use case
 
-// Register DbContext for SQL Server
+// Register DbContext for MS SQL Server 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -166,7 +166,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline. 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
