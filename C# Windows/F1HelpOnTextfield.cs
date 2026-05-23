@@ -1,4 +1,6 @@
- void GetGrnoHelp()
+// Help Box for text field
+
+void GetGrnoHelp()
         {
             string sql = @"SELECT GRNO,SRNO FROM GRRFILE WHERE Acno='" + lblPartyCode.Text + "' AND Qcode='" + lblQcode.Text + "'";
             DataTable dataTable = Vss.GetDataTableByQuery(sql, Connection.sqlcon);
