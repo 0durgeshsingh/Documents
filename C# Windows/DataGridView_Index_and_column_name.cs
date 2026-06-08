@@ -1,5 +1,5 @@
 
-//  Getting the Name Of Columns Index and Names or Header Text Of DatagridView .
+//  Getting the Name Of Columns Index and Names or Header Text Of DatagridView . It tells the name of column and index
 
 
 StringBuilder sb = new StringBuilder();
