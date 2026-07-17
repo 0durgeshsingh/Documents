@@ -1,5 +1,3 @@
-// working on 
-
 
 ## Step 1. Model
   - Create the Model Folder and add class
