@@ -1,3 +1,6 @@
+// working on 
+
+
 ## Step 1. Model
   - Create the Model Folder and add class
 
@@ -35,7 +38,7 @@ namespace _0durgeshsingh.Data
         // DbSet represents a collection of entities of type Person that can be queried or saved to the database
         public DbSet<Person> Persons { get; set; }
     }
-}
+} 
 ```
 ## Step 3. Create Controller Class
   - Create controller class in Controller folder
@@ -178,7 +181,7 @@ app.UseAuthorization();
 app.MapControllers();
 app.Run();
 ```
-
+ 
 
 
 
