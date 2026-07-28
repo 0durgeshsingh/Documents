@@ -20,25 +20,6 @@ select * From TBL_MASTER_USER_ROLES
 -- PROCR_GET_PendingPaymentRequest_ForIndex
 
 
-
-Address
-DocsPicture
-DocsAddhar
-DocsPan
-DocsOther1
-DocsOther2
-DocsOther3
-
-SponserIncome
-LevelIncome
-SurfPriceIncome
-IdCardIncome
-SystemProfileIncome
-WalletProfileIncome
-TotalIncome
-
-
-
 ALTER TABLE tbl_MemberMaster ADD MemberAddress Varchar(max)
 ALTER TABLE tbl_MemberMaster ADD DocsPicture Varchar(max)
 ALTER TABLE tbl_MemberMaster ADD DocsAddhar Varchar(max)
