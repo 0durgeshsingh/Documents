@@ -12,20 +12,3 @@
 
   
 /===============================================================================
-some temporary Notes
-SELECT * FROM tbl_MemberMaster
-SELECT * FROM TBL_MASTER_USER_INFO order by USER_RECNO desc
-SELECT * FROM TBL_MASTER_USER_LOCATION_MAPPING
-
-SELECT * FROM tbl_BankMaster order by ClientBankRecno desc
-
-
-SELECT * FROM tbl_MemberMaster where Name ='DURGESH SINGH'
-SELECT * FROM TBL_MASTER_USER_INFO WHERE LOGIN_NAME = 'MBR0000001'
-
-
--- Delete FROM tbl_MemberMaster where Name ='DURGESH SINGH'
--- Delete FROM TBL_MASTER_USER_INFO WHERE LOGIN_NAME = 'MBR0000001'
-
--- Exec PROC_GET_PASSWORD @UserName = '0durgeshsingh@gmail.com'
-select * From TBL_MASTER_USER_ROLES
