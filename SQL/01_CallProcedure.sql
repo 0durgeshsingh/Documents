@@ -10,5 +10,3 @@ void CallProcedureCostingSheet() {
             sqlCommand.CommandTimeout = 10800; // 3 hours (3 * 60 * 60 seconds)
             sqlCommand.ExecuteNonQuery();
         }
-
-// store pro
